@@ -25,9 +25,7 @@
 ```console
 # sırasıyla
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y python3-pip
-sudo apt install pip
-sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
+sudo apt install -y build-essential libssl-dev libffi-dev python3-dev python3-pip pip
 
 curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
 source /root/.bashrc
@@ -81,7 +79,7 @@ gaianet start
 > [Buradan](https://www.gaianet.ai/setting/gaia-api-keys) bir API key oluşturup saklayın keyi.
 
 ```console
-curl -L -o gaiabot.py https://github.com/0xmoei/Gaianet-AI/raw/main/gaiabot.py
+curl -L -o gaiabot.py https://github.com/enzifiri/gaia-node/raw/main/gaiabot.py
 screen -S gaia
 python3 gaiabot.py
 
