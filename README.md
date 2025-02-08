@@ -45,7 +45,7 @@ gaianet info
 
 <img width="397" alt="Ekran Resmi 2025-02-07 21 46 05" src="https://github.com/user-attachments/assets/45bd47ef-3aba-4141-baec-bbd03ca68aa4" />
 
-> bir domaine katılacağız (en düşük donanımı destekleyen tek bir domain var)
+> Kendi domainimize katılacağız (en düşük donanımı destekleyen tek bir domain var)
 
 ```console
 gaianet stop
@@ -60,11 +60,12 @@ gaianet start
 
 <img width="424" alt="Ekran Resmi 2025-02-07 21 47 50" src="https://github.com/user-attachments/assets/a1de0b3e-1a80-498f-8bbc-0b373024173c" />
 
-> pengu yazıp domaini ekleyelim.
+> rues yazıp domaini ekleyelim.
 
-<img width="557" alt="Ekran Resmi 2025-02-07 21 48 35" src="https://github.com/user-attachments/assets/4b82adee-b8ac-40bc-b62f-6b5e7bfe2b55" />
+![image](https://github.com/user-attachments/assets/8c9fd6dc-b4dd-415b-87bf-e89db66bedf7)
 
-> ChatGPT yerine [bu](https://www.gaianet.ai/chat?domain=pengu.gaia.domains&type=domain) botu kullanmak node puanınızı arttıracak.
+
+> ChatGPT yerine [bu](https://www.gaianet.ai/chat?domain=ruesandora.gaia.domains&type=domain) botu kullanmak node puanınızı arttıracak.
 
 > Kullanmadığımız zamanlarda da çalışması için oto text bot kuracağız.
 
@@ -79,7 +80,7 @@ gaianet start
 > [Buradan](https://www.gaianet.ai/setting/gaia-api-keys) bir API key oluşturup saklayın keyi.
 
 ```console
-curl -L -o gaiabot.py https://github.com/enzifiri/gaia-node/raw/main/gaiabot.py
+curl -L -o gaiabot.py https://github.com/ruesandora/gaia-node/raw/main/gaiabot.py
 screen -S gaia
 python3 gaiabot.py
 
