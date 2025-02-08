@@ -79,7 +79,7 @@ gaianet start
 > [Buradan](https://www.gaianet.ai/setting/gaia-api-keys) bir API key oluşturup saklayın keyi.
 
 ```console
-curl -L -o gaiabot.py https://github.com/enzifiri/gaia-node/raw/main/gaiabot.py
+curl -L -o gaiabot.py https://github.com/ruesandora/gaia-node/raw/main/gaiabot.py
 screen -S gaia
 python3 gaiabot.py
 
